@@ -22,6 +22,7 @@ var ver = "54.08";
 var verDate = "26.8.19";
 
 var changelogList = [];
+changelogList.push({date: "26.11.2019", version: "", description: "Attempted something...", isNew: true});
 changelogList.push({date: "4.4.2019", version: "", description: "Added Zek's C2 Table", isNew: true});
 changelogList.push({date: "24.3.2019", version: "", description: "Saving new players from themselves. ", isNew: false});
 changelogList.push({date: "22.3.2019", version: "", description: "Obli and Trimp now start BW raiding on proper zones. ", isNew: false});
@@ -33,7 +34,7 @@ changelogList.push({date: "2.1.2019", version: "", description: "Run Stacked Voi
 
 
 var atscript = document.getElementById('AutoTrimps-script'),
-        basepath = (local ? 'AutoTrimps/' : 'https://slivermasterz.github.io/AutoTrimps/'),
+        basepath = (local ? 'AutoTrimps/' : 'https://Stimy1737.github.io/AutoTrimps/'),
         modulepath = 'modules/';
 
 var initialized = false;
