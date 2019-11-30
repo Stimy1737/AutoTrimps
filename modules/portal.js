@@ -90,6 +90,7 @@ function autoPortal() {
         case "Domination":
         case "Bublé":
         case "Melt":
+		case "Quagmire":
             if(!game.global.challengeActive) {
                 doPortal(autoTrimpSettings.AutoPortal.selected);
             }
