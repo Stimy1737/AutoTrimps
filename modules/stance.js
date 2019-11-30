@@ -209,7 +209,7 @@ function autoStance(){
     worldArray[cellNum].health = enemyHealth; //is there a reason why we should calculate this earlier?
     worldArray[cellNum].corrupted = cell.corrupted;
     
-    if(game.global.GeneticistassistSteps.indexOf(game.global.GeneticistassistSetting) == 0)
+    if(game.global.GeneticistassistSteps.indexOf(game.global.GeneticistassistSetting) == 0 && portalUniverse === 1)
         switchOnGA(); //in rare cases we leave GA disabled, so make sure to turn it back on
     
     var requiredDmgToOK = dmgNeededToOK(cellNum); //how much dmg we need to fully OK on this/next attack

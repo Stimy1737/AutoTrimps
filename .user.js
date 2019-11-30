@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         AutoTrimps-NT-Sliverz
+// @name         AutoTrimps-NT-Stimy
 // @version      1.0-NT
 // @namespace    https://Stimy1737.io/AutoTrimps
 // @updateURL    https://Stimy1737.github.io/AutoTrimps/.user.js

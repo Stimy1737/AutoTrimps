@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         AutoTrimps-Sliverz
+// @name         AutoTrimps-Stimy
 // @namespace    https://github.com/Stimy1737/AutoTrimps
-// @version      2.2-Sliverz
+// @version      2.21-Stimy
 // @updateURL    https://github.com/Stimy1737/AutoTrimps/install.user.js
 // @description  Automate all the trimps!
 // @author       zininzinin, spindrjr, Ishkaru, genBTC, Sliverz
