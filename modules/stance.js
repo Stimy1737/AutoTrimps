@@ -510,8 +510,10 @@ function autoStance(){
                 stackSpireNoMoreDamageCell = cellNum;
             }
         }
-        else if (expectedNumHitsX > missingStacks && portalUniverse === 1){
-            if (isScryhardActive())
+        else if (expectedNumHitsX > missingStacks){
+            if (portalUniverse === 2) // Do not use Scryer in U2
+                choseFormation = 0; 
+            else if (isScryhardActive())
                 chosenFormation = 4; //scryhard active
             else
                 chosenFormation = '0';
@@ -532,8 +534,10 @@ function autoStance(){
 
                 if (expectedNumHitsD > missingStacks)
                     chosenFormation = 2;
-                else if (expectedNumHitsX > missingStacks  && portalUniverse === 1){
-                    if (isScryhardActive())
+                else if (expectedNumHitsX > missingStacks){
+     	            if (portalUniverse === 2) // Do not use Scryer in U2
+                        choseFormation = 0; 
+                    else if (isScryhardActive())
                         chosenFormation = 4; //scryhard active
                     else
                         chosenFormation = '0';
@@ -1066,7 +1070,7 @@ function goDefaultStance(chosenFormation){
     else if (formation == 5 && getUberEmpowerment() !== "Wind")
         formation = '0';
     
-    if(formation != game.global.formation)
+    if(formation != game.global.formation && portalUniverse === 1)
         setFormation(formation);
 }
 
