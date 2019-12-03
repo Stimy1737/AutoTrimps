@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutoTrimps-NT-Stimy
 // @version      1.1-NT
-// @namespace    https://Stimy1737.io/AutoTrimps
+// @namespace    https://Stimy1737.github.io/AutoTrimps
 // @updateURL    https://Stimy1737.github.io/AutoTrimps/.user.js
 // @description  Automate all the trimps!
 // @author       zininzinin, spindrjr, Ishkaru, genBTC, Zeker0, Meowchan
