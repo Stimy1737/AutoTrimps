@@ -511,7 +511,7 @@ function autoStance(){
             }
         }
         else if (expectedNumHitsX > missingStacks){
-            if (isScryhardActive())
+            if (isScryhardActive()&& portalUniverse === 1)
                 chosenFormation = 4; //scryhard active
             else
                 chosenFormation = '0';
@@ -533,7 +533,7 @@ function autoStance(){
                 if (expectedNumHitsD > missingStacks)
                     chosenFormation = 2;
                 else if (expectedNumHitsX > missingStacks){
-                    if (isScryhardActive())
+                    if (isScryhardActive() && portalUniverse === 1)
                         chosenFormation = 4; //scryhard active
                     else
                         chosenFormation = '0';
