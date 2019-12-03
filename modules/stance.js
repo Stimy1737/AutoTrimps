@@ -510,8 +510,8 @@ function autoStance(){
                 stackSpireNoMoreDamageCell = cellNum;
             }
         }
-        else if (expectedNumHitsX > missingStacks){
-            if (isScryhardActive()&& portalUniverse === 1)
+        else if (expectedNumHitsX > missingStacks && portalUniverse === 1){
+            if (isScryhardActive())
                 chosenFormation = 4; //scryhard active
             else
                 chosenFormation = '0';
@@ -532,8 +532,8 @@ function autoStance(){
 
                 if (expectedNumHitsD > missingStacks)
                     chosenFormation = 2;
-                else if (expectedNumHitsX > missingStacks){
-                    if (isScryhardActive() && portalUniverse === 1)
+                else if (expectedNumHitsX > missingStacks  && portalUniverse === 1){
+                    if (isScryhardActive())
                         chosenFormation = 4; //scryhard active
                     else
                         chosenFormation = '0';
